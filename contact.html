@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="css/mystyle.css">
+         <link rel="stylesheet" href="css/mystyle2.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+            <!-- header section starts here -->
+        <header class="container1">
+                <div class="wrapper"> 
+                    <nav class="nav"> 
+                        <img src="images/logo1.jpg">
+                        <ul> 
+                            <li><a href="mydemo2.html">Home</a></li>
+                            <li><a href="FAQ.html">FAQ</a></li>
+                            <li><a href="contact.html">Contact us</a>
+                                <ul>
+                                    <li><a href="#">Page 1</a></li>
+                                    <li><a href="#">Page 2</a></li> 
+                                </ul> 
+                            </li>
+                        </ul> 
+                    </nav> 
+                </div> 
+        </header> <!-- header section ends here -->
+
+        <div class="main-wrapper">
+            <div class="contactwrap">
+               <h1 >Send us a message.</h1>
+                <div class="formwrap">
+                    <form>
+                        <div class="col">
+                            <div class="col1">
+                                <span><input id="txt" type="text" maxlength="10" name="fname" placeholder="First name" required></span>
+                                <span><input id="txt" type="text" maxlength="10" name="lname"placeholder="Last name" required></span>
+                                <input type="email" name="ename" placeholder="Work Email" required>
+                             </div>
+                            <div class="col2">
+                                <span><input id="txt" type="text" maxlength="10" name="cname"  placeholder="Company name" required></span>
+                                <span><input id="txt" type="text" maxlength="10"  name="jtitle" placeholder="Job Title" required></span>
+                                <select >
+                                    <option value="Select season">Select season</option>
+                                    <option value="season 1">season 1</option>
+                                    <option value="season 2">season 2</option>
+                                    <option value="season 3">season 3</option>
+                                </select>
+                                <select>
+                                    <option value="select role" required>select role</option>
+                                    <option value="supporting">supporting</option>
+                                    <option value="extras">extras</option>
+                                        
+                                </select>
+                                <p id="p2"></p>
+                             </div>
+                        </div>
+                        <p><textarea placeholder="write something"></textarea></p>
+                        <input type="submit" value="submit"  onclick="formValidation()">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        
+         <div class="footer-section">     <!--2ndfooter starts-->
+            <div class=" rqdfooter">
+                <div class="copyright">Copyright &copy;2018 All rights reserved</div>
+                <div class="footer-links">
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-google"></i>   
+                    <i class="fa fa-snapchat-ghost"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-youtube"></i>
+                    
+                </div>
+          </div>
+            
+        </div>      
+        <script src="javascript/myscript.js"></script>
+    </body>
+</html>
